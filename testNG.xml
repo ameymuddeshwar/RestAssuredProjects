@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RestAssuredSuite">
+
+	<test name="RestAssuredTests">
+		<classes>
+			<class name="dataDrivenTesting" />
+			<class name="TC001_GET_Request" />
+			<class name="TC002_POST_Request" />
+			<class name="TC003_GET_Response_Body" />
+		</classes>	
+	</test>
+
+</suite>
