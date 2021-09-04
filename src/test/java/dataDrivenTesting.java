@@ -14,6 +14,7 @@ public class dataDrivenTesting {
 
 	@Test(dataProvider="testData")
 	void createUser(String uname, String job, String asd, String dfg) {
+		
 		//Specify base UI
 		RestAssured.baseURI = "https://reqres.in/api";
 		
