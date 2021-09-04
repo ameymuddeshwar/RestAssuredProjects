@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-02T23:57:41 AEST" name="RestAssuredSuite" finished-at="2021-09-02T23:57:51 AEST" duration-ms="9509">
+    <groups>
+    </groups>
+    <test started-at="2021-09-02T23:57:41 AEST" name="RestAssuredTests" finished-at="2021-09-02T23:57:51 AEST" duration-ms="9509">
+      <class name="TC001_GET_Request">
+        <test-method signature="getListOfUsers()[pri:0, instance:TC001_GET_Request@7bd4937b]" started-at="2021-09-02T23:57:48 AEST" name="getListOfUsers" finished-at="2021-09-02T23:57:49 AEST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsers -->
+      </class> <!-- TC001_GET_Request -->
+      <class name="dataDrivenTesting">
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting@2fb3536e]" started-at="2021-09-02T23:57:43 AEST" name="createUser" data-provider="testData" finished-at="2021-09-02T23:57:46 AEST" duration-ms="3133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahii]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Business Analyst]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting@2fb3536e]" started-at="2021-09-02T23:57:46 AEST" name="createUser" data-provider="testData" finished-at="2021-09-02T23:57:47 AEST" duration-ms="801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tata Motors Manager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting@2fb3536e]" started-at="2021-09-02T23:57:47 AEST" name="createUser" data-provider="testData" finished-at="2021-09-02T23:57:47 AEST" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[German interpreter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting@2fb3536e]" started-at="2021-09-02T23:57:47 AEST" name="createUser" data-provider="testData" finished-at="2021-09-02T23:57:48 AEST" duration-ms="821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gangster]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- dataDrivenTesting -->
+      <class name="TC003_GET_Response_Body">
+        <test-method signature="getListOfResources()[pri:0, instance:TC003_GET_Response_Body@4f2b503c]" started-at="2021-09-02T23:57:50 AEST" name="getListOfResources" finished-at="2021-09-02T23:57:51 AEST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfResources -->
+      </class> <!-- TC003_GET_Response_Body -->
+      <class name="TC002_POST_Request">
+        <test-method signature="createUser()[pri:0, instance:TC002_POST_Request@6fd83fc1]" started-at="2021-09-02T23:57:49 AEST" name="createUser" finished-at="2021-09-02T23:57:50 AEST" duration-ms="1488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- TC002_POST_Request -->
+    </test> <!-- RestAssuredTests -->
+  </suite> <!-- RestAssuredSuite -->
+</testng-results>
